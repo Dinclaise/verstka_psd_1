@@ -1,0 +1,38 @@
+<svg id="cloud_2.svg" data-name="cloud 2.svg" xmlns="http://www.w3.org/2000/svg" width="86" height="49" viewBox="0 0 86 49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #0d3e60;
+      }
+
+      .cls-3 {
+        fill: #eb5238;
+      }
+
+      .cls-4 {
+        fill: #e8ddff;
+      }
+
+      .cls-5 {
+        fill: #e8dbfe;
+      }
+    </style>
+  </defs>
+  <path id="cloud_2" data-name="cloud 2" class="cls-1" d="M1235.5,273a13.5,13.5,0,1,1-13.5,13.5A13.5,13.5,0,0,1,1235.5,273Zm27-14a24.5,24.5,0,1,1-24.5,24.5A24.5,24.5,0,0,1,1262.5,259Zm31.5,13a14,14,0,1,1-14,14A14,14,0,0,1,1294,272Z" transform="translate(-1222 -259)"/>
+  <g id="face_2" data-name="face 2">
+    <path class="cls-2" d="M1264.81,286.094c4.73,0,8.56,1.287,8.56,2.875s-3.83,2.875-8.56,2.875-8.56-1.287-8.56-2.875S1260.08,286.094,1264.81,286.094Z" transform="translate(-1222 -259)"/>
+    <path id="_" data-name="&gt;" class="cls-2" d="M1258.67,277.723l-3.61,3.343h1.7l3.6-3.343-3.6-3.358h-1.7Z" transform="translate(-1222 -259)"/>
+    <path id="_copy" data-name="&gt; copy" class="cls-2" d="M1270.27,277.4l3.64-3.4h-1.72l-3.63,3.4,3.63,3.416h1.72Z" transform="translate(-1222 -259)"/>
+    <path class="cls-3" d="M1264.77,282.906c2.66,0,4.82,2.707,4.82,6.047s-2.16,6.047-4.82,6.047-4.83-2.707-4.83-6.047S1262.1,282.906,1264.77,282.906Z" transform="translate(-1222 -259)"/>
+    <ellipse class="cls-4" cx="25.92" cy="27.11" rx="2.92" ry="2.891"/>
+    <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-5" cx="58.08" cy="27.11" r="2.92"/>
+  </g>
+</svg>

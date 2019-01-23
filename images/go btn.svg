@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff9df;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="go_btn.svg" data-name="go btn.svg" class="cls-1" d="M278.141,2314.78l-5.209-3.02c-1.162-.68-3.063-1.78-4.228-2.45l-5.4-3.02a1.4,1.4,0,0,0-2.3,1.2v17.02c0,1.33,1.142,1.87,2.305,1.2l5.3-3.02c1.165-.67,3.115-1.77,4.277-2.45l5.234-3.01A1.3,1.3,0,0,0,278.141,2314.78Z" transform="translate(-261 -2306)"/>
+</svg>
