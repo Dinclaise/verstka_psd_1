@@ -168,7 +168,11 @@
 	height: 122px;
 	background-color: #fff9df;
 	position: relative;
-
+	text-align: center;
+	padding: 0 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .scroll-bg::before {
@@ -178,8 +182,8 @@
 	height: 174px;
 	display: block;
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: -23px;
+	top: -28px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("../images/left_scroll.svg");
@@ -192,8 +196,8 @@
 	height: 174px;
 	display: block;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: -23px;
+	top: -28px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("../images/right_scroll.svg");
@@ -201,4 +205,8 @@
 
 .scroll__title {
 
+	color:#8d8b80;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
 }
