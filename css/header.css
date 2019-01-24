@@ -39,6 +39,15 @@
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1;
+}
 
+.header__icon-mail {
+	margin-bottom: 35px;
+}
 
+.header__invite {
+	color: #eb5238;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1;
 }
