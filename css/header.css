@@ -82,7 +82,6 @@
 
 .header-names {
 	display: block;
-	border: 3px solid green;
 	margin-right: auto;
 	margin-left: auto;
 	display: -webkit-flex;
@@ -152,7 +151,7 @@
 	color: #fff;
 	font-weight: 300;
 	font-size: 30px;
-	line-height: 24px;
+	line-height: 36px;
 	text-align: center;
 }
 
