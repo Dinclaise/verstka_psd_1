@@ -24,9 +24,15 @@
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1;
-
+	margin-bottom: 4px;
 }
 
 .promises-counter__desc {
+
+	color: #0d3e60;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1;
+
 
 }
