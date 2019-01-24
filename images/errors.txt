@@ -1,6 +1,0 @@
-[2019-01-23 19:07:10] layer "31,122 +": Expected end of input but "+" found.
-[2019-01-23 19:07:10] layer "johnsmith@gmail.com": Unsupported extension: com
-[2019-01-23 19:07:10] layer "janicesmith@hotmail.com": Unsupported extension: com
-[2019-01-23 19:07:10] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
-[2019-01-23 19:07:10] layer "go btn.svg": Duplicate path: go btn.svg
-[2019-01-23 19:07:10] layer "go btn.svg": Duplicate path: go btn.svg
