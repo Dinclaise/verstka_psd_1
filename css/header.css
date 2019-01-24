@@ -76,8 +76,6 @@
 
 .header-names {
 	display: block;
-	width: 800px;
-	height: 400px;
 	border: 3px solid green;
 	margin-right: auto;
 	margin-left: auto;
@@ -87,13 +85,23 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 60px;
 }
 
-* {
+/** {
 
 	border: 1px solid red;
+}*/
+
+.header-names-left {
+
+	text-align: right;
 }
 
+.header-names-right {
+
+	text-align: left;
+}
 .header-names__name {
 	color:#eb5238;
 	font-size: 22px;
@@ -114,20 +122,30 @@
 	background-color: #ed543a;
 	border-radius: 60px;
 	background-image: url("../images/icon-heart.svg");
-/*	background-size: cover;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
+	margin-right: 37px;
+	margin-left: 37px;
 }
 
 .header-names-button::after {
-	content: "";
+	content: "+";
 	display: block;
 	width: 37px;
 	height: 37px;
 	background-color: #ffcc36;
 	border-radius: 20px;
 	position: absolute;
-	bottom: 0;
 	left: 50%;
+	transform: translate(-50%, 100%);
+	bottom: 15px;
+	/*background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/icon-heart.svg");*/
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 24px;
+	text-align: center;
 }
