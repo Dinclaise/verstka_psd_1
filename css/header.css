@@ -74,3 +74,43 @@
 	margin-bottom: 36px;
 }
 
+.header-names {
+	display: block;
+	width: 800px;
+	height: 400px;
+	border: 3px solid green;
+	margin-right: auto;
+	margin-left: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+
+.header-names * {
+
+	border: 3px solid red;
+}
+
+.header-names__name {
+	color:#eb5238;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.header-names__email {
+	color:#0d3e60;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.header-names-button {
+	width: 91px;
+	height: 91px;
+	background-color: #ed543a;
+	border-radius: 60px;
+}
