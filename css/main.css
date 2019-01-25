@@ -58,3 +58,38 @@ body {
 	background-repeat: no-repeat;
 	background-image: url("../images/tickbox.svg");
 }
+
+.form {
+
+
+}
+
+.input {
+
+	width: 293px;
+	height: 51px;
+	border-radius: 19px;
+	background-color: #000000;
+	background-image: linear-gradient(to top, #fff9df 0%, #fffdf4 100%);
+}
+
+.checkbox {
+
+
+
+}
+
+.checkbox-description {
+
+
+}
+
+.submit {
+
+
+}
+
+.form-notice {
+
+
+}
