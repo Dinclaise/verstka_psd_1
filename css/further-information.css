@@ -1,4 +1,10 @@
 .further-information-content {
 
+		width: 555px;
+		margin-left: auto;
+		color:rgba(13, 62, 96. .86);
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.875; /* 30px / 16px = 1.875*/
 
 }
