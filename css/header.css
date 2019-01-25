@@ -166,10 +166,6 @@
 }
 
 .scroll-bg {
-/*
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url("../images/icon-heart.svg");*/
 
 	max-width: 750px;
 	height: 122px;
@@ -187,7 +183,7 @@
 .scroll-bg::before {
 	
 	content: "";
-	width: 57px;
+	width: 73px;
 	height: 174px;
 	display: block;
 	position: absolute;
@@ -201,7 +197,7 @@
 .scroll-bg::after {
 	
 	content: "";
-	width: 57px;
+	width: 73px;
 	height: 174px;
 	display: block;
 	position: absolute;
