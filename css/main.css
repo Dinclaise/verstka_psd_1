@@ -112,7 +112,13 @@ body {
 }
 
 .submit {
-
+	
+	color:#fff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 30px;
+	border: none;
+	cursor: pointer;
 	width: 216px;
 	height: 52px;
 	border-radius: 20px;
@@ -120,7 +126,27 @@ body {
 	background-image: linear-gradient(to top, #eb5638 0%, #eb6838 100%);
 }
 
+.submit:hover {
+
+	background-image: linear-gradient(to top, #eb6838 0%, #eb5638 100%);
+}
+
+.submit:focus {
+
+
+}
+
 .form-notice {
 
+	color: #0d3e60;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
 
+.form-notice a {
+
+	color: #eb5238;
+	font-weight: 700;
+	text-decoration: underline;
 }
