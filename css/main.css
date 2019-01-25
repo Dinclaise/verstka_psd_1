@@ -34,14 +34,27 @@ body {
 		padding: 0;
 		margin: 0;
 		list-style-type: none;
+		padding-top: 15px;
+		margin-bottom: 60px;
 }
 
 .checklist li {
 
 	margin-bottom: 15px;
+	position: relative;
+	padding-left: 47px;
 }
 
 .checklist li:before {
-
 	
+	content: "";
+	display: block;
+	width: 32px;
+	height: 29px;
+	left: 0;
+	top: 10px;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/tickbox.svg");
 }
