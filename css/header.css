@@ -1,5 +1,6 @@
 .header {
 
+	position: relative;
 	width: 100%;
 	height: 1195px;
 	padding-top: 92px;
@@ -221,25 +222,29 @@
 
 .link-circle {
 
+	display: block;
+	position: absolute;
+	width: 81px;
+	height: 81px;
+	border-radius: 50px;
+	background-color: rgba(235, 82, 56, .2);
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.link-circle-inner {
+
 	width: 55px;
 	height: 55px;
+	display: block;
+	top: 13px;
+	left: 13px;
 	background-color: #eb5238;
 	border-radius: 50px;
 	z-index: 2;
 	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/arrow-down.svg");
 }
 
-.link-circle:after {
-
-	content: "";
-	display: block;
-	width: 81px;
-	height: 81px;
-	border-radius: 50px;
-	background-color: #eb5238;
-	opacity: 0.2;
-	z-index: 1;
-	position: absolute;
-	left: -13px;
-	top: -13px;
-}
