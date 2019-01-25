@@ -79,6 +79,7 @@ body {
 	padding-left: 26px;
 	padding-right: 26px;
 	padding-top: 5px;
+	margin-right: 25px;
 }
 
 ::-webkit-input-placeholder {
@@ -117,6 +118,7 @@ body {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 30px;
+	margin-right: 27px;
 	border: none;
 	cursor: pointer;
 	width: 216px;
@@ -149,4 +151,16 @@ body {
 	color: #eb5238;
 	font-weight: 700;
 	text-decoration: underline;
+}
+
+.form-group {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.form-label {
+	cursor: pointer;
 }
