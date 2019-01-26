@@ -23,9 +23,10 @@
 .about-toggle-wrapper {
 
 	display: flex;
+	margin-bottom: 90px;
 }
 
-.about__toggle {
+a.about__toggle,  .about__toggle {
 
 	width: 165px;
 	height: 46px;
@@ -40,6 +41,8 @@
 	margin-right: 20px;
 	cursor: pointer;
 	transition: 0.2s ease-in;
+	text-decoration: none;
+	text-align: center;
 }
 
 .about__toggle:hover {
@@ -51,5 +54,6 @@
 .title-special {
 
 	color:#eb5238;
+	margin-bottom: 65px;
 }
 
