@@ -11,6 +11,7 @@
 	position: relative;
 	transition: 0.3s ease-in;
 	color:#2e435e;
+	margin-bottom: 61px;
 }
 
 .card:hover {
