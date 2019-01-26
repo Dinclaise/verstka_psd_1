@@ -57,7 +57,12 @@ a.about__toggle,  .about__toggle {
 
 .card {
 
-
+	width: 210px;
+	height: 300px;
+	box-shadow: 6px 9px 35px rgba(25, 40, 66, .1);
+	border-radius: 20px;
+	background-color: #fff;
+	padding: 65px 30px 35px;
 }
 
 .card__title {
