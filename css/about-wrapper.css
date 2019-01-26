@@ -63,6 +63,9 @@ a.about__toggle,  .about__toggle {
 	border-radius: 20px;
 	background-color: #fff;
 	padding: 65px 30px 35px;
+
+	display: flex;
+	flex-direction: column;
 }
 
 .card__title {
@@ -84,6 +87,6 @@ a.about__toggle,  .about__toggle {
 
 .card__read-more {
 
-
+	margin-top: auto;
 }
 
