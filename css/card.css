@@ -49,6 +49,23 @@
 .card__read-more {
 
 	margin-top: auto;
+	display: flex;
+	position: relative;
+	height: 20px;
+}
+
+.card__read-more a {
+	
+	position: absolute;
+	left: 0;
+	transition: all 0.4s ease-in-out;
+}
+
+.card:hover .card__read-more a {
+
+	/*margin-left: auto;*/
+	left: 130px;
+
 }
 
 .card-circle {
