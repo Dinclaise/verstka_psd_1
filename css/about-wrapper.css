@@ -9,5 +9,18 @@
 
 	width: 555px;
 	height: 220px;
-	background-color: yellow;
+	color: #0d3e60;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 36px;
+}
+
+.about__toggle {
+
+
+}
+
+.title-special {
+
+	color:#eb5238;
 }
