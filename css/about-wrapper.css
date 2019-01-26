@@ -1,9 +1,13 @@
 .about-cards {
 	
-	
+	width: 488px;
+	height: 220px;
+	background-color: red;
 }
 
 .about-content {
 
-
+	width: 555px;
+	height: 220px;
+	background-color: yellow;
 }

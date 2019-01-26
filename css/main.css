@@ -17,7 +17,7 @@ body {
 	margin-right: auto;
 }
 
-.justify-content {
+.justify-between {
 
 	display: flex;
 	justify-content: space-between;
