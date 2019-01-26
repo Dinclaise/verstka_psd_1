@@ -63,9 +63,9 @@ a.about__toggle,  .about__toggle {
 	border-radius: 20px;
 	background-color: #fff;
 	padding: 65px 30px 35px;
-
 	display: flex;
 	flex-direction: column;
+	position: relative;
 }
 
 .card__title {
@@ -88,5 +88,36 @@ a.about__toggle,  .about__toggle {
 .card__read-more {
 
 	margin-top: auto;
+}
+
+.card-circle {
+
+	display: block;
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	top: 0;
+	left: 0;
+	border-radius: 50px;
+	background-color: rgba(235, 82, 56, .2);
+	transform: translate(-50%, -50%);
+}
+
+.card-circle-inner {
+
+	display: block;
+	width: 62px;
+	height: 62px;
+	display: block;
+	top: 7px;
+	left: 7px;
+	background-color: #eb5238;
+	border-radius: 50px;
+	z-index: 2;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 
