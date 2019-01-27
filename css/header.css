@@ -85,13 +85,10 @@
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 60px;
+	position: relative;
 }
 
 /** {
@@ -102,11 +99,17 @@
 .header-names-left {
 
 	text-align: right;
+	width: 50%;
+	padding-right: 80px;
+	padding-top: 10px;
 }
 
 .header-names-right {
 
 	text-align: left;
+	width: 50%;
+	padding-left: 80px;
+	padding-top: 10px;
 }
 .header-names__name {
 	color:#eb5238;
@@ -131,8 +134,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
-	margin-right: 37px;
-	margin-left: 37px;
+	/*margin-right: 37px;
+	margin-left: 37px;*/
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 
 .header-names-button::after {
