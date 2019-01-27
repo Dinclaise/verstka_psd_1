@@ -28,3 +28,40 @@ padding-bottom: 120px;
 	width: 650px;
 	text-align: right;
 }
+
+.footer-navigation-list {
+
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		display: flex;
+		justify-content: flex-end;
+}
+
+.footer-navigation-list li {
+
+	margin-right: 33px;
+	color: #2e435e;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 31px;
+	
+}
+
+.footer-navigation-list li:last-child {
+
+	margin-right: 0;
+}
+
+.footer-navigation-list a {
+
+	color: #2e435e;
+	text-decoration: none;
+}
+
+.footer-navigation-list a:hover {
+
+	color: #eb5238;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
