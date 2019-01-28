@@ -195,6 +195,7 @@ display: none;
 	font-weight: 700;
 	line-height: 30px;
 	margin-right: 27px;
+	margin-bottom: 15px;
 	border: none;
 	cursor: pointer;
 	width: 216px;
@@ -202,6 +203,14 @@ display: none;
 	border-radius: 20px;
 	background-color: #eb5638;
 	background-image: linear-gradient(to top, #eb5638 0%, #eb6838 100%);
+}
+
+@media (min-width: 700px) {
+
+	.submit {
+	
+		margin-bottom: 0;
+	}
 }
 
 .submit:hover {

@@ -20,21 +20,58 @@
 	z-index: -1;
 }
 
+.about-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media (min-width: 1140px) {
+
+	.about-container {
+	
+	flex-direction: row;	
+	justify-content: space-between;
+	
+	}
+}
+
 .about-cards {
 	
 	width: 488px;
 	display: flex;
 	justify-content: space-between;
+	order: 2;
 }
+
+@media (min-width: 1140px) {
+
+	.about-cards {
+	
+		order: 1;
+	
+	}
+}
+
 
 .about-content {
 
 	width: 555px;
-	height: 220px;
 	color: #0d3e60;
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 36px;
+	order: 1;
+}
+
+@media (min-width: 1140px) {
+
+	.about-content {
+	
+		order: 2;
+	
+	}
 }
 
 .cards-1-column {
