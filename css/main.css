@@ -16,10 +16,21 @@ p {
 	margin-top: 0;
 }
 .container {
-	width: 1140px;
-	/*background-color: yellow;*/
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+@media (min-width: 1140px) {
+
+	.container {
+
+		width: 1140px;
+		padding: 0;
+	}
 }
 
 .justify-between {
@@ -219,3 +230,5 @@ display: none;
 .form-label {
 	cursor: pointer;
 }
+
+
