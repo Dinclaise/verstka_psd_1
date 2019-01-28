@@ -27,6 +27,8 @@
 .cloud-1 {
 	
 	position: absolute;
+	top: 300px;
+	left: -15px;
 	background-image: url("../images/cloud 1.svg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -37,6 +39,8 @@
 .cloud-2 {
 	
 	position: absolute;
+	top: 263px;
+	right: -21px;
 	background-image: url("../images/cloud 2.svg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -46,10 +50,26 @@
 .logo-wrapper {
 
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	margin-bottom: 33px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 23px;
 	position: relative;
+	padding-top: 60px;
+}
+
+@media (min-width: 1140px) {
+
+	.logo-wrapper {
+
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: flex-end;
+		margin-bottom: 23px;
+		position: relative;
+		padding-top: 0;
+	}
 }
 
 .tagline {
@@ -66,8 +86,9 @@
 	padding-top: 13px;
 	border-radius: 24px;
 	position: absolute;
-	top: -30px;
+	top: -75px;
 	left: -45px;
+	width: 276px;
 }
 
 .tagline:after {
@@ -89,6 +110,21 @@
 	font-weight: 700;
 }
 
+.logo {
+
+	margin-bottom: 25px;
+	position: relative;
+}
+
+@media (min-width: 1140px) {
+
+	.logo {
+
+			margin-bottom: 0;
+	}
+}
+
+
 .promises-counter {
 
 }
@@ -96,6 +132,7 @@
 .promises-counter__icon {
 
 	margin-bottom: 8px;
+	text-align: center;
 }
 
 .promises-counter__number {
@@ -316,7 +353,7 @@
 	background-image: url("../images/arrow-down.svg");
 }
 
-/*.header-content, .header-names, .scroll, .link-circle {
+.header-content, .header-names, .scroll, .link-circle, .cloud-1, .cloud-2 {
 
 	display: none;
-}*/
+}
