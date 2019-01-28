@@ -7,7 +7,7 @@
 	padding-bottom: 410px;
 	background-color: red;
 	background-color: #fff;
-  background-image: url(../images/illustration-header.png),
+  background-image: url(../images/illustration-header_1.png),
                     linear-gradient( 90deg, rgb(255,255,255) 0%, rgb(255,252,239) 38%, rgb(255,249,223) 100%, rgb(255,255,255) 100%);
   
  
@@ -24,6 +24,25 @@
 	}
 }
 
+.cloud-1 {
+	
+	position: absolute;
+	background-image: url("../images/cloud 1.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 118px;
+	height: 77px;
+}
+
+.cloud-2 {
+	
+	position: absolute;
+	background-image: url("../images/cloud 2.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 86px;
+	height: 49px;
+}
 .logo-wrapper {
 
 	display: flex;
@@ -297,7 +316,7 @@
 	background-image: url("../images/arrow-down.svg");
 }
 
-.header-content, .header-names, .scroll, .link-circle {
+/*.header-content, .header-names, .scroll, .link-circle {
 
 	display: none;
-}
+}*/
