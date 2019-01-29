@@ -213,4 +213,12 @@ a.about__toggle,  .about__toggle {
 	}
 }
 
+.about-content__box {
 
+	display: none;
+}
+
+.about-content__box:first-child {
+
+	display: block;
+}
