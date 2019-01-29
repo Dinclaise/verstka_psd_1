@@ -277,23 +277,34 @@ display: none;
 	
 	display: none;
 	position: fixed;
-	width: 51px;
-	height: 51px;
+	width: 42px;
+	height: 42px;
 	border-radius: 50px;
 	background-color: rgba(235, 82, 56, .2);
-	bottom: 50px;
-	right: 50px;
+	bottom: 20px;
+	right: 20px;
 	transform: rotate(180deg);
 	cursor: pointer;
 }
 
+@media (min-width: 1140px) {
+
+	.scrollToTop-wrapper {
+		
+		width: 51px;
+		height: 51px;
+		bottom: 50px;
+		right: 50px;
+	}
+}
+
 .scrollToTop-icon {
 
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
 	display: block;
-	top: 8px;
-	left: 8px;
+	top: 6px;
+	left: 6px;
 	background-color: #eb5238;
 	border-radius: 50px;
 	z-index: 2;
@@ -302,5 +313,13 @@ display: none;
 	background-repeat: no-repeat;
 	background-image: url("../images/arrow-down.svg");
 }
+@media (min-width: 1140px) {
 
-
+	.scrollToTop-icon {
+	
+		width: 35px;
+		height: 35px;
+		top: 8px;
+		left: 8px;
+	}
+}
